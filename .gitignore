@@ -1,0 +1,25 @@
+# Ignore virtual environment folder
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore environment files
+.env
+
+# Ignore common data files by default
+# *.csv
+# *.tsv
+# *.xlsx
+# *.zip
+# *.log
+
+# But explicitly do NOT ignore Data folder and its contents
+!Data/
+!Data/*
